@@ -1,0 +1,21 @@
+@charset "utf-8";
+
+/* base */
+:root{
+    --hd-height: 50px;
+}
+.d-lg-block{display: none !important}
+html{font-size: 16px}
+
+/* @tablet responsive */
+@media screen and (min-width: 768px) {
+
+}
+
+@media screen and (max-width: 991px) {
+
+}
+
+@media screen and (max-width: 767px) {
+
+}

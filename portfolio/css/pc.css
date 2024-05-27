@@ -1,0 +1,32 @@
+@charset "utf-8";
+
+html{font-size: 18px}
+
+/* layout */
+#gnb{margin-left: auto}
+.gnb{position: absolute;left: 50%;;transform: translateX(-50%);top: 0}
+.gnb>li{height: var(--hd-height);display: flex;align-items: center}
+.gnb>li+li{margin-left: 26px}
+/* .ft-top{display: flex;align-items: flex-end;justify-content: space-between}
+.ft-info{display: flex}
+.ft-cs{margin-left: 200px;}
+.ft-info .btn{align-self: flex-end;margin-left: auto;} */
+
+
+@media screen and (min-width: 1200px) {
+
+}
+
+@media screen and (min-width: 1400px) {
+
+}
+
+@media screen and (max-width: 1600px) {
+    #gnb{display: flex;align-items: center;margin-left: 0;flex: 1}
+    .gnb{position: static;margin-left: auto;transform: none}
+    .gnb>li+li{margin-left: 40px}
+}
+
+@media screen and (max-width: 1399px) {
+
+}
